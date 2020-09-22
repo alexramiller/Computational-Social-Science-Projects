@@ -1,0 +1,9 @@
+git clone https://github.com/alexramiller/Computational-Social-Science-Projects
+cd Computational-Social-Science-Projects
+mkdir "Project 1"
+cd "Project 1"
+vim commands.txt
+cd ..
+git add "Project 1"/commands.txt
+git commit -m "Added Project 1 Commands"
+git push origin master
